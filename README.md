@@ -1,17 +1,14 @@
-# Osher Calisthenics - Sprint 1 Mobile Fix
+# Osher Calisthenics - Clean Mobile First
 
-מה עודכן:
-- תיקון תצוגת מובייל למסך הבית.
-- ביטול חיתוך רוחבי במסך.
-- תפריט תחתון קבוע במובייל.
-- מפת השרירים נכנסת למסך בלי להיחתך.
-- הפאנל נפתח מתחת למפה במובייל.
-- כרטיס התרגיל המרכזי יורד מתחת לפאנל במובייל.
+פרויקט נקי אחד שמיועד ל-Vercel.
 
-מה להעלות:
-- ניתן להחליף את כל התוכן בפרויקט, או לפחות את app/globals.css.
+## בדיקה מקומית
+```bash
+npm install
+npm run build
+npm run dev
+```
 
-לא להעלות:
-- node_modules
-- .next
-- out
+## העלאה
+העלה ל-GitHub את כל התוכן שבתיקייה הזו.
+לא להעלות: node_modules, .next, out.

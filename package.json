@@ -1,5 +1,5 @@
 {
-  "name": "osher-calisthenics",
+  "name": "osher-calisthenics-clean",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,14 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.23",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
   },
-  "devDependencies": {
-    "typescript": "^5.7.2",
-    "@types/node": "^20.17.10",
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5"
-  }
+  "devDependencies": {}
 }
