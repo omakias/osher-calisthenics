@@ -30,18 +30,18 @@ export type Exercise = {
 export const asset = (path: string) => path;
 
 export const muscles: Muscle[] = [
-  { id: 'chest', name: 'חזה', latin: 'Pectorals', side: 'front', x: 44, y: 34, count: 10, description: 'תרגילים לחיזוק החזה ודחיפה.' },
-  { id: 'shoulders', name: 'כתפיים', latin: 'Deltoids', side: 'front', x: 39, y: 27, count: 8, description: 'תרגילים לכתפיים, יציבות ודחיפה מעל הראש.' },
-  { id: 'triceps', name: 'יד אחורית', latin: 'Triceps', side: 'front', x: 65, y: 39, count: 8, description: 'תרגילים ליד אחורית ונעילת מרפקים.' },
-  { id: 'biceps', name: 'יד קדמית', latin: 'Biceps', side: 'front', x: 31, y: 39, count: 7, description: 'תרגילים ליד קדמית ומשיכה.' },
-  { id: 'abs', name: 'בטן', latin: 'Abdominals', side: 'front', x: 47, y: 47, count: 8, description: 'תרגילי ליבה, יציבות ושליטה בגוף.' },
-  { id: 'quads', name: 'ירך קדמית', latin: 'Quadriceps', side: 'front', x: 42, y: 68, count: 8, description: 'תרגילים לרגליים, כוח ויציבות.' },
-  { id: 'calves', name: 'תאומים', latin: 'Calves', side: 'front', x: 58, y: 86, count: 5, description: 'תרגילים לשוקיים, ניתור ויציבות קרסול.' },
-  { id: 'back', name: 'גב', latin: 'Back', side: 'back', x: 50, y: 34, count: 12, description: 'תרגילי משיכה לגב רחב וחזק.' },
-  { id: 'traps', name: 'טרפזים', latin: 'Trapezius', side: 'back', x: 50, y: 25, count: 6, description: 'חיזוק שכמות וצוואר.' },
-  { id: 'lats', name: 'רחב גבי', latin: 'Lats', side: 'back', x: 40, y: 40, count: 8, description: 'תרגילים להרחבת הגב ושיפור כוח משיכה.' },
-  { id: 'hamstrings', name: 'ירך אחורית', latin: 'Hamstrings', side: 'back', x: 42, y: 70, count: 6, description: 'שרירי ירך אחורית, יציבות ומניעת פציעות.' },
-  { id: 'glutes', name: 'ישבן', latin: 'Glutes', side: 'back', x: 50, y: 57, count: 6, description: 'תרגילים לישבן, אגן וכוח תחתון.' }
+  { id: 'chest', name: 'חזה', latin: 'Pectorals', side: 'front', x: 57, y: 27, count: 10, description: 'תרגילים לחיזוק החזה ודחיפה.' },
+  { id: 'shoulders', name: 'כתפיים', latin: 'Deltoids', side: 'front', x: 32, y: 27, count: 8, description: 'תרגילים לכתפיים, יציבות ודחיפה מעל הראש.' },
+  { id: 'triceps', name: 'יד אחורית', latin: 'Triceps', side: 'front', x: 79, y: 38, count: 8, description: 'תרגילים ליד אחורית ונעילת מרפקים.' },
+  { id: 'biceps', name: 'יד קדמית', latin: 'Biceps', side: 'front', x: 18, y: 38, count: 7, description: 'תרגילים ליד קדמית ומשיכה.' },
+  { id: 'abs', name: 'בטן', latin: 'Abdominals', side: 'front', x: 46, y: 39, count: 8, description: 'תרגילי ליבה, יציבות ושליטה בגוף.' },
+  { id: 'quads', name: 'ירך קדמית', latin: 'Quadriceps', side: 'front', x: 28, y: 61, count: 8, description: 'תרגילים לרגליים, כוח ויציבות.' },
+  { id: 'calves', name: 'תאומים', latin: 'Calves', side: 'front', x: 58, y: 61, count: 5, description: 'תרגילים לשוקיים, ניתור ויציבות קרסול.' },
+  { id: 'back', name: 'גב', latin: 'Back', side: 'back', x: 43, y: 27, count: 12, description: 'תרגילי משיכה לגב רחב וחזק.' },
+  { id: 'traps', name: 'טרפזים', latin: 'Trapezius', side: 'back', x: 48, y: 20, count: 6, description: 'חיזוק שכמות וצוואר.' },
+  { id: 'lats', name: 'רחב גבי', latin: 'Lats', side: 'back', x: 25, y: 28, count: 8, description: 'תרגילים להרחבת הגב ושיפור כוח משיכה.' },
+  { id: 'hamstrings', name: 'ירך אחורית', latin: 'Hamstrings', side: 'back', x: 79, y: 74, count: 6, description: 'שרירי ירך אחורית, יציבות ומניעת פציעות.' },
+  { id: 'glutes', name: 'ישבן', latin: 'Glutes', side: 'back', x: 37, y: 58, count: 6, description: 'תרגילים לישבן, אגן וכוח תחתון.' }
 ];
 
 const img = (id: string) => `/exercises/${id}.jpg`;
