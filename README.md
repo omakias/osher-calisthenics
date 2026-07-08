@@ -1,14 +1,10 @@
-# Osher Calisthenics - Clean Mobile First
+# Osher Calisthenics - Mobile Fixed V2
 
-פרויקט נקי אחד שמיועד ל-Vercel.
+הגרסה הזו מתקנת:
+- מסך מובייל שלא נחתך
+- מפת שרירים בגובה מותאם למסך
+- שימוש ב-object-fit: contain כדי לראות את כל הגוף
+- תמונות תרגילים מתוך public/exercises
+- Bottom Sheet לתרגילים אחרי לחיצה על שריר
 
-## בדיקה מקומית
-```bash
-npm install
-npm run build
-npm run dev
-```
-
-## העלאה
-העלה ל-GitHub את כל התוכן שבתיקייה הזו.
-לא להעלות: node_modules, .next, out.
+לא להעלות ל-GitHub: node_modules, .next, out
