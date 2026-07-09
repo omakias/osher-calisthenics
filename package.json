@@ -13,8 +13,9 @@
     "@types/react-dom": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "typescript": "latest"
+    "react-dom": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
 }

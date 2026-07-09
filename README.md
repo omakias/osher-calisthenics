@@ -1,10 +1,21 @@
-# Osher Calisthenics - Mobile Fixed V2
+# Osher Calisthenics - Home 2.3 Accurate Muscle Regions
 
-הגרסה הזו מתקנת:
-- מסך מובייל שלא נחתך
-- מפת שרירים בגובה מותאם למסך
-- שימוש ב-object-fit: contain כדי לראות את כל הגוף
-- תמונות תרגילים מתוך public/exercises
-- Bottom Sheet לתרגילים אחרי לחיצה על שריר
+עדכון ממוקד למפת השרירים:
 
-לא להעלות ל-GitHub: node_modules, .next, out
+- אין יותר אזורי לחיצה עגולים.
+- אזורי השרירים הם SVG paths לפי מידות התמונה האמיתית.
+- כל שריר מסומן בצבע שונה.
+- לחיצה אפשרית רק על השריר הצבוע עצמו.
+- Front / Back נשארים פעילים.
+
+להחליף בפרויקט:
+- app/page.tsx
+- app/globals.css
+- public/body-front.png
+- public/body-back.png
+
+בדיקה:
+```bash
+npm run build
+npm run dev
+```
