@@ -28,7 +28,7 @@ const frontRegions = [
 ];
 
 const backRegions = [
-  { id:'traps', label:'טרפזים', color:'#84cc16', points:'132,112 178,82 224,112 213,166 144,166' },
+  { id:'back', label:'גב עליון', color:'#84cc16', points:'132,112 178,82 224,112 213,166 144,166' },
   { id:'back', label:'גב', color:'#22c55e', points:'123,166 236,166 253,333 210,428 176,452 145,428 106,333' },
   { id:'lats', label:'רחב גבי', color:'#06b6d4', points:'76,184 126,165 141,344 102,392 69,345' },
   { id:'lats', label:'רחב גבי', color:'#06b6d4', points:'235,165 284,184 292,345 258,392 219,344' },
