@@ -1,5 +1,5 @@
 {
-  "name": "osher-calisthenics-clean",
+  "name": "osher-calisthenics-mobile-clean-js",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,14 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "typescript": "7.0.2"
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   }
 }
