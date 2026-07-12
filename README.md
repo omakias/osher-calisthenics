@@ -1,12 +1,17 @@
-# Osher Calisthenics - Mobile Human V7 Vercel Fixed
+# Osher Calisthenics - Mobile Final Clean V8
 
-גרסה נקייה ל-Vercel.
+גרסה נקייה ל-Vercel ללא TypeScript.
 
-מה תעשה:
-1. העלה ל-GitHub את כל תוכן התיקייה הזו.
-2. ודא שאתה לא משאיר קבצים ישנים מהריפו הקודם.
-3. אל תעלה node_modules או .next.
-4. Vercel יבנה אוטומטית.
+## בדיקה מקומית
+npm install
+npm run build
+npm run dev
 
-הבעיה שתוקנה:
-- נוספו typescript, @types/react, @types/node כדי ש-Vercel לא ייכשל אם tsconfig.json קיים.
+## העלאה ל-GitHub
+מחק קודם את כל הקבצים הישנים בריפו, ואז העלה את כל תוכן התיקייה הזו.
+לא להעלות:
+- node_modules
+- .next
+- out
+
+חשוב: אין בקובץ הזה app/page.tsx ואין tsconfig.json. אם הם נשארים בריפו הישן, הם ימשיכו לשבור את Vercel.
