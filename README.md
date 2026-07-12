@@ -1,17 +1,12 @@
-# Osher Calisthenics - Muscle Map Human V6
+# Osher Calisthenics - Mobile Human V7 Vercel Fixed
 
-עדכון ממוקד למפת השרירים:
-- תמונת בן אדם אמיתית בתוך המפה.
-- אזורי לחיצה על השרירים עצמם, לא נקודות.
-- כל אזור צבוע בצבע אחר.
-- התאמה למובייל עם object-fit: contain.
-- שאר העיצוב והעמודים נשארו כמו בגרסה שאמרת שנראית טוב.
+גרסה נקייה ל-Vercel.
 
-בדיקה:
-```bash
-npm install
-npm run build
-npm run dev
-```
+מה תעשה:
+1. העלה ל-GitHub את כל תוכן התיקייה הזו.
+2. ודא שאתה לא משאיר קבצים ישנים מהריפו הקודם.
+3. אל תעלה node_modules או .next.
+4. Vercel יבנה אוטומטית.
 
-להעלות ל-GitHub את כל התוכן שבתיקייה, לא את node_modules ולא את .next.
+הבעיה שתוקנה:
+- נוספו typescript, @types/react, @types/node כדי ש-Vercel לא ייכשל אם tsconfig.json קיים.
