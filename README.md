@@ -1,11 +1,16 @@
-# Osher Calisthenics - Clean V9
+# Osher Calisthenics - Mobile Layout Fix
 
-פרויקט Next.js נקי, JavaScript בלבד, בלי TypeScript, בלי traps שגוי.
+עדכון מלא לפרויקט JavaScript נקי:
+- Home מותאם מובייל בלי חיתוך.
+- מפת שרירים וקטורית פנימית, מדויקת לעצמה ומופיעה תמיד.
+- עמוד תרגילים מסודר בכרטיסים קטנים: תמונה, שם, הסבר קצר, רמה וציוד.
+- תפריט תחתון עם אייקון + טקסט בעברית.
 
-## בדיקה מקומית
+בדיקה:
+```bash
 npm install
 npm run build
 npm run dev
+```
 
-## העלאה ל-GitHub
-העלה את כל תוכן התיקייה. לא להעלות node_modules, .next, out.
+לא להעלות ל-GitHub: node_modules, .next, out.
